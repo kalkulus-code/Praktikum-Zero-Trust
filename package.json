@@ -1,0 +1,17 @@
+{
+  "name": "zero-trust-system",
+  "version": "1.0.0",
+  "description": "Implementasi Zero Trust Security - Informatika Unsil",
+  "main": "gateway.js",
+  "scripts": {
+    "init-db": "node db.js",
+    "start-gateway": "node gateway.js",
+    "start-nilai": "node service-nilai.js",
+    "start-transkrip": "node service-transkrip.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
